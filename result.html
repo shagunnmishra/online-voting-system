@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vote Summary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <h2>Your Vote Summary</h2>
+
+        <p id="output"></p>
+
+        <button onclick="back()">Back to Home</button>
+    </div>
+
+<script>
+document.getElementById("output").innerHTML =
+    "You voted for: <b>" + (localStorage.getItem("myVote") || "No vote found") + "</b>";
+
+function back() {
+    window.location = "index.html";
+}
+</script>
+
+</body>
+</html>
