@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cast Vote</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <h2>Select Your Candidate</h2>
+
+        <button class="btn" onclick="vote('Candidate A')">Candidate A</button>
+        <button class="btn" onclick="vote('Candidate B')">Candidate B</button>
+        <button class="btn" onclick="vote('Candidate C')">Candidate C</button>
+    </div>
+
+<script>
+function vote(name) {
+    localStorage.setItem("myVote", name);
+    window.location = "result.html";
+}
+</script>
+
+</body>
+</html>
