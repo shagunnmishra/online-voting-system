@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Voting System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h2>Online Voting System</h2>
+
+        <input type="text" id="voterId" placeholder="Enter Voter ID">
+        <button onclick="login()">Login</button>
+    </div>
+
+<script>
+function login() {
+    let id = document.getElementById("voterId").value.trim();
+
+    if(id === "") {
+        alert("Please enter Voter ID");
+        return;
+    }
+
+    localStorage.setItem("voterId", id);
+    window.location = "vote.html";
+}
+</script>
+
+</body>
+</html>
