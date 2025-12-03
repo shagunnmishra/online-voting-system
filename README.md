@@ -20,6 +20,4 @@ This project is **lightweight**, **modern**, and perfect for **demonstrations, s
 - **Local Storage:** User vote is stored locally for demonstration purposes.  
 - **Snapshot-Friendly:** Perfect for showcasing in presentations or GitHub portfolio.  
 
----
 
-## 💻 Folder Structure
