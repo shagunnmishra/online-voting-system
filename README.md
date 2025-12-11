@@ -18,6 +18,4 @@ This project is **lightweight**, **modern**, and perfect for **demonstrations, s
   - Attractive buttons and color scheme  
 - **Front-End Only:** No backend required, runs directly in the browser.  
 - **Local Storage:** User vote is stored locally for demonstration purposes.  
-- **Snapshot-Friendly:** Perfect for showcasing in presentations or GitHub portfolio.  
-
 
